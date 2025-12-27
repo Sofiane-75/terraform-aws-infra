@@ -3,6 +3,8 @@
 ## Description
 Ce projet démontre la mise en place d'une infrastructure AWS à l'aide de Terraform selon les bonnes pratiques Infrastructure as Code.
 
+Projet en cours de construction – structure initiale.
+
 ## Technologies
 - Terraform
 - AWS (EC2, S3)
@@ -12,11 +14,24 @@ Ce projet démontre la mise en place d'une infrastructure AWS à l'aide de Terra
 - `modules/` : modules réutilisables (EC2, S3)
 - `envs/dev` : environnement de développement
 - `provider.tf` : configuration provider AWS
+- `outputs.tf` : sorties Terraform
 - `variables.tf` : variables globales
 
 ## Utilisation
-
 Initialisation :
 ```bash
 terraform init
+``` 
+Application :
+```bash
+terraform apply
+```
+## Objectifs du projet
+- Appliquer les bonnes pratiques Terraform
+- Structurer une infrastructure AWS modulaire
+- Préparer le déploiement de ressources EC2 et S3
+- Faciliter l'évolution vers plusieurs environnements
+
+## Statut
+Work in Progress — architecture Terraform en cours d'évolution
 
