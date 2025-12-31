@@ -18,3 +18,9 @@ terraform {
   }
 }
 
+module "s3" {
+  source      = "./modules/s3"
+  bucket_name = "sofiane-terraform-demo-bucket"
+  environment = "dev"
+}
+
