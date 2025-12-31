@@ -5,3 +5,16 @@
 terraform.tfvars
 .terraform.lock.hcl
 
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variables sensibles
+*.tfvars
+
+# OS / Editor
+.DS_Store
+.vscode/
+
