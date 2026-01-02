@@ -32,6 +32,12 @@ terraform apply
 - Préparer le déploiement de ressources EC2 et S3
 - Faciliter l'évolution vers plusieurs environnements
 
+## Notes
+This repository focuses on Terraform structure and best practices.
+AWS resources are intentionally minimal and may require valid credentials
+to be applied.
+
+
 ## Statut
 Work in Progress — architecture Terraform en cours d'évolution
 
