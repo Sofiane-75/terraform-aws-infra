@@ -41,3 +41,10 @@ to be applied.
 ## Statut
 Work in Progress — architecture Terraform en cours d'évolution
 
+## Terraform Workflow
+Typical workflow:
+
+terraform init
+terraform plan
+terraform apply
+
