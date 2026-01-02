@@ -8,3 +8,9 @@ variable "environment" {
   type        = string
 }
 
+variable "bucket_name" {
+  description = "S3 bucket name"
+  type        = string
+  default     = "sofiane-terraform-demo-bucket"
+}
+
