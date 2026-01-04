@@ -20,7 +20,7 @@ terraform {
 
 module "s3" {
   source      = "./modules/s3"
-  bucket_name = "sofiane-terraform-demo-bucket"
-  environment = "dev"
+  bucket_name = var.bucket_name
+  environment = var.environment
 }
 
