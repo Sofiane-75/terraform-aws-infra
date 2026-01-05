@@ -8,3 +8,8 @@ output "s3_bucket_arn" {
   value       = module.s3.s3_bucket_arn
 }
 
+output "ec2_instance_id" {
+  description = "EC2 instance ID"
+  value       = module.ec2.instance_id
+}
+
