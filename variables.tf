@@ -14,3 +14,8 @@ variable "environment" {
   type        = string
 }
 
+validation {
+  condition     = can(regex("^eu-", var.aws_region))
+  error_message = "AWS region must be in Europe (eu-*)."
+}
+
