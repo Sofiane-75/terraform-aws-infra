@@ -1,12 +1,17 @@
-# Dev Environment
+## Purpose
 
-This directory defines the Terraform configuration for the development environment.
+This directory contains the Terraform configuration
+for the development environment.
+
+It allows isolated testing before promoting changes
+to other environments.
+
 
 Resources:
 - S3 bucket
 - EC2 instance
 
-Usage:
+Use:
 terraform init
 terraform plan
 terraform apply
