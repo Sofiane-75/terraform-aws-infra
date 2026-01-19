@@ -7,3 +7,10 @@ This project follows Terraform best practices.
 - terraform validate
 - terraform plan
 
+## Pre-Apply Checklist
+
+- Terraform files formatted
+- Variables validated
+- No hardcoded secrets
+- Correct environment selected
+
