@@ -1,5 +1,9 @@
 locals {
-  project     = "terraform-aws-infra"
-  environment = "dev"
+  common_tags = {
+    Project     = "terraform-aws-infra"
+    ManagedBy   = "terraform"
+    Environment = var.environment
+  }
 }
+
 
