@@ -1,3 +1,4 @@
+# Root variables shared across all environments and modules
 variable "aws_region" {
   description = "AWS region"
   type        = string
