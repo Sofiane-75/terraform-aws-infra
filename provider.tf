@@ -1,3 +1,7 @@
+# AWS provider configuration
+# Region is injected via variables for multi-environment support.
+
+
 terraform {
   required_version = ">= 1.3.0"
 
