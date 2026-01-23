@@ -1,7 +1,8 @@
 # Main Terraform configuration
 # Resources will be added incrementally (EC2, S3)
 # Root Terraform configuration
-# This file wires modules together
+# Root Terraform configuration
+# This file wires all modules together for the selected environment.
 
 
 # backend "s3" {
