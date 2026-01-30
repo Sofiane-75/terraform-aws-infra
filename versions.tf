@@ -1,3 +1,7 @@
+# Terraform and provider version constraints
+# This ensures reproducible deployments across environments.
+
+
 terraform {
   required_version = ">= 1.3.0"
 
