@@ -1,3 +1,7 @@
+# Development environment configuration
+# This environment is used for local testing and validation.
+
+
 module "ec2" {
   source = "../../modules/ec2"
 }
