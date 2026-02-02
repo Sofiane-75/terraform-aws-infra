@@ -1,3 +1,5 @@
+# Outputs exposed by the dev environment
+
 output "s3_bucket_name" {
   description = "S3 bucket name for dev environment"
   value       = module.s3.s3_bucket_name
