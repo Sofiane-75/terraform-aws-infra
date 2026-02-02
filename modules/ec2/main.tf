@@ -1,4 +1,6 @@
 # EC2 module main resource definition
+# Security note:
+# Instance configuration is intentionally minimal for demonstration purposes
 # This resource provisions a single EC2 instance
 
 
