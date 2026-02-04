@@ -1,3 +1,3 @@
-# Variables specific to the dev environment
-# This file overrides or defines values for development usage
+# Variables specific to the development environment
+# Values defined here are used only for dev deployments
 
