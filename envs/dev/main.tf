@@ -1,5 +1,5 @@
-# Development environment configuration
-# This environment is used for local testing and validation.
+# Development environment entrypoint
+# This file instantiates root modules for the dev environment
 
 
 module "ec2" {
