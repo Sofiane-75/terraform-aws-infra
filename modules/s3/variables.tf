@@ -1,5 +1,6 @@
 # Input variables for the S3 module
-# Used to define bucket naming and deployment environment.
+# Used to control bucket naming and environment tagging
+
 
 
 variable "bucket_name" {
