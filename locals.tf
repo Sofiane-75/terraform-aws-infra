@@ -1,4 +1,5 @@
-# Local values to standardize naming and tagging across resources
+# Local values used for naming conventions and shared tags
+
 
 locals {
   common_tags = {
