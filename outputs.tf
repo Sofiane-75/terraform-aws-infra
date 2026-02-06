@@ -1,3 +1,5 @@
+# Root outputs exposed to consumers of this Terraform configuration
+
 output "s3_bucket_name" {
   description = "Name of the S3 bucket created by the S3 module"
   value       = module.s3.s3_bucket_name
