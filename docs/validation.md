@@ -14,3 +14,8 @@ This project follows Terraform best practices.
 - No hardcoded secrets
 - Correct environment selected
 
+## Validation Scope
+
+Validation focuses on syntax correctness, module wiring,
+and Terraform best practices before any apply is executed.
+
