@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# This script validates Terraform configuration locally
-# It is intended for developer usage before commits
+# This script validates Terraform configuration locally and syntax structure
 
 set -e
 
