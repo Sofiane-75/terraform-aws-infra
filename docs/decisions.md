@@ -1,4 +1,8 @@
-# Technical Decisions
+## Design Decisions
+
+- Terraform modules are used to enforce separation of concerns.
+- Environments are isolated using dedicated directories.
+- Simplicity is preferred over full production hardening.
 
 ## Terraform
 - Modular architecture for reuse
