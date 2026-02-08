@@ -1,5 +1,6 @@
 # AWS provider configuration
 # Region is injected via variables for multi-environment support.
+# Region and credentials are defined via variables and environment
 
 
 terraform {
