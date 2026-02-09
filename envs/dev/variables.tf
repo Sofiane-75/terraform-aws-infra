@@ -1,3 +1,2 @@
-# Variables specific to the development environment
-# Values defined here are used only for dev deployments
-
+# Development environment variables
+# These values override root variables for the dev workspace
