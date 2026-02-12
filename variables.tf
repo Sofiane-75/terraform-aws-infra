@@ -1,4 +1,12 @@
 # Root variables shared across all environments and modules
+
+variable "project_name" {
+  description = "Project name used for tagging and naming resources"
+  type        = string
+  default     = "terraform-aws-infra"
+}
+
+
 variable "aws_region" {
   description = "AWS region"
   type        = string
