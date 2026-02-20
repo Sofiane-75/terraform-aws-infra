@@ -3,8 +3,6 @@
 ## Description
 This project demonstrates the setup of an AWS infrastructure using Terraform, following Infrastructure as Code (IaC) best practices.
 
-The project is currently a work in progress and focuses on building a clean, modular, and scalable Terraform architecture.
-
 ## Technologies
 - Terraform
 - AWS (EC2, S3)
