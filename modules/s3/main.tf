@@ -1,5 +1,7 @@
-# S3 module
+# Naming is controlled via variables for flexibility across environments
 # Creates a secure S3 bucket with environment-based tagging
+
+
 resource "aws_s3_bucket" "this" {
   bucket = var.bucket_name
 
