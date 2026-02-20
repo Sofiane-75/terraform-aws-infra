@@ -1,5 +1,4 @@
 # Main Terraform configuration
-# Root Terraform configuration
 # This file connects infrastructure modules.
 
 
