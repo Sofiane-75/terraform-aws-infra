@@ -66,12 +66,6 @@ Projet en cours de construction – structure initiale.
 - AWS (EC2, S3)
 - Modules Terraform
 
-## Structure
-- `modules/` : modules réutilisables (EC2, S3)
-- `envs/dev` : environnement de développement
-- `provider.tf` : configuration provider AWS
-- `outputs.tf` : sorties Terraform
-- `variables.tf` : variables globales
 
 ## Utilisation
 Initialisation :
