@@ -42,9 +42,6 @@ AWS resources are intentionally minimal and may require valid credentials
 to be applied.
 
 
-## Statut
-Work in Progress — architecture Terraform en cours d'évolution
-
 ## Terraform Workflow
 Typical workflow:
 
