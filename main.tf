@@ -1,4 +1,3 @@
-# Main Terraform configuration
 # This file connects infrastructure modules.
 
 
